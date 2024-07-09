@@ -1,4 +1,5 @@
-print('\nHi! Welcome to my Python exercise notebook!\n')
+print('\n\t Hi! Welcome to my Python exercise notebook!\n')
+
 list = ('''
 \n\tPython Excercise List\n
     1. The F String\n''')

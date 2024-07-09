@@ -1,3 +1,4 @@
+# region Console Colors
 class Colors:
     HEADER = '\033[95m'
     INFO = '\033[94m'
@@ -9,6 +10,9 @@ class Colors:
     UNDERLINE = '\033[4m'
 
 
+# endregion
+
+# region Section 2, #10
 # Section 2: Python Introduction
 # 10. Our First Python Program
 
@@ -20,6 +24,9 @@ name = input("What's your name?\nName: ")  # input(), Variable
 
 print("Hello, " + name + ".\n")  # print(), String Concatenation
 
+# endregion
+
+# region Section 3, #21
 # Section 3: Python Basics
 # 21. Numbers
 
@@ -73,8 +80,11 @@ print("\n"
       "Subtraction: " + first_number + " % " + second_number + " = " + str(value) + "\n" +
       "Type: " + str(type(value)) + "\n")
 
+# endregion
+
+# region Section 3, #22
 # Section 3: Python Basics
-# 21. Numbers
+# 22. Math Functions
 
 print(Colors.HEADER +
       "Section 3: Python Basics\n"
@@ -83,4 +93,23 @@ print(Colors.HEADER +
 
 number = float(input("Negative Float Number: "))
 print("round(): " + str(round(number)))
-print("abs(): " + str(abs(number)))
+print("abs(): " + str(abs(number)) + '\n')
+
+# endregion
+
+# region Section 3, #28
+# Section 3: Python Basics
+# 28. Variables
+
+print(Colors.HEADER +
+      "Section 3: Python Basics\n"
+      "28. Variables" +
+      Colors.END)
+
+string1, string2, string3 = "This", "is sample of", "Tuple Unpacking"
+print(string1)
+print(string2)
+print(string3)
+input(Colors.WARNING + "Press ENTER to continue..." + Colors.END)
+
+# endregion

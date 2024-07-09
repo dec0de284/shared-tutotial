@@ -28,5 +28,7 @@
 - [x] 22\. Math Functions
   - [x] round() 
   - [x] abs() 
+- [x] 28\. Variables
+  - [x] Tuple Unpacking
 
 

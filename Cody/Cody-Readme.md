@@ -38,3 +38,5 @@
     - [x] Exponential
     - [x] Floor Division
     - [x] Modulo
+- [x] 31\. Strings
+    - [x] Long String

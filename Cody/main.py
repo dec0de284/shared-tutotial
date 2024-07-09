@@ -110,7 +110,7 @@ string1, string2, string3 = "This", "is sample of", "Tuple Unpacking"
 print(string1)
 print(string2)
 print(string3)
-input(Colors.WARNING + "Press ENTER to continue..." + Colors.END)
+input(Colors.WARNING + "Press ENTER to continue..." + Colors.END + '\n')
 
 # endregion
 
@@ -166,6 +166,25 @@ print("\n"
 value = int(first_number)
 value %= int(second_number)
 print("\n"
-      "Modulo: " + first_number + " %= " + second_number + " = " + str(value) + "\n")
+      "Modulo: " + first_number + " %= " + second_number + " = " + str(value))
+
+# endregion
+
+# region Section 3, #31
+# Section 3: Python Basics
+# 31. Strings
+
+header_string = '''
+{color_header}Section 3: Python Basics
+31. Strings{color_end}
+'''
+print(header_string.format(color_header=Colors.HEADER, color_end=Colors.END))
+
+string_content = '''Welcome, {user}.
+This is a sample long string.'''
+print(string_content.format(color_header=Colors.HEADER, user=name, color_end=Colors.END))
+
+press_enter_notice = '''{color_header}Press ENTER to continue...{color_end}'''
+input(press_enter_notice.format(color_header=Colors.WARNING, color_end=Colors.END))
 
 # endregion

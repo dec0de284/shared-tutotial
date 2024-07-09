@@ -48,3 +48,5 @@
     - [x] Reverse String
 - [x] **40\. Exercise: Type Conversion**
 - [x] **42\. Exercise: Password Checker**
+> [!NOTE]
+> Continue lession section 3, #45 Matrix.

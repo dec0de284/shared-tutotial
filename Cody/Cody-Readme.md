@@ -1,5 +1,6 @@
 ![](https://user-images.githubusercontent.com/76246537/218339633-d285c55c-5388-4c30-a38a-06cf3cbaee5d.png)
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/dec0de284/shared-tutotial?authorFilter=dec0de284&color=dec0de)
 # Cody's Checklist
 
 > [!TIP]
@@ -40,3 +41,8 @@
     - [x] Modulo
 - [x] 31\. Strings
     - [x] Long String
+- [x] 35\. Formatted Strings
+    - [x] String Interpolation
+- [x] 36\. String Indexes
+    - [x] String Splice
+    - [x] Reverse String

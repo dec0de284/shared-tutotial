@@ -182,9 +182,41 @@ print(header_string.format(color_header=Colors.HEADER, color_end=Colors.END))
 
 string_content = '''Welcome, {user}.
 This is a sample long string.'''
-print(string_content.format(color_header=Colors.HEADER, user=name, color_end=Colors.END))
+print(string_content.format(user=name))
 
 press_enter_notice = '''{color_header}Press ENTER to continue...{color_end}'''
 input(press_enter_notice.format(color_header=Colors.WARNING, color_end=Colors.END))
+
+# endregion
+
+# region Section 3, #35
+# Section 3: Python Basics
+# 35. Formatted Strings
+
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+35. Formatted Strings{Colors.END}''')
+
+print(f'''Hi {name}, this is a sample long string with String Interpolation.''')
+
+input(f'''{Colors.WARNING}Press ENTER to continue...{Colors.END}''')
+
+# endregion
+
+# region Section 3, #36
+# Section 3: Python Basics
+# 36. String Indexes
+
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+36. String Indexes{Colors.END}''')
+
+string = "cQjQNKtAC9jA6aWhXBNkaD7K"
+
+print(f'''Original String: {string}
+Limit to 12 characters: {string[:12]} - Length: {len(string[:12])}
+Reverse string: {string[::-1]}''')
+
+input(f'''{Colors.WARNING}Press ENTER to continue...{Colors.END}''')
 
 # endregion

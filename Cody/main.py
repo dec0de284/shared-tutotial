@@ -16,7 +16,7 @@ class Colors:
 
 
 # endregion
-"""
+
 # region Section 2, #10
 # Section 2: Python Introduction
 # 10. Our First Python Program
@@ -241,7 +241,7 @@ print(f'''You're now {age} years old.''')
 input(f'''{Colors.WARNING}Press ENTER to continue...{Colors.END}''')
 
 # endregion
-"""
+
 # region Section 3, #42
 # Section 3: Python Basics
 # 42. Exercise: Password Checker

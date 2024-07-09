@@ -6,6 +6,7 @@ list = ('''
 user_input = int(input(f'''Here\'s a list of my exercises. {list} 
 \n Which do you want to see? '''))
 
+
 def f_str():
     print('\n\tThis is the excercise for \'The F String\'\n')
     name = input('What\'s your name?\n')

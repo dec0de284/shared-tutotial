@@ -30,5 +30,11 @@
   - [x] abs() 
 - [x] 28\. Variables
   - [x] Tuple Unpacking
-
-
+- [x] 30\. Augmented Assignment Operator
+    - [x] Addition
+    - [x] Subtraction
+    - [x] Multiplication
+    - [x] Division
+    - [x] Exponential
+    - [x] Floor Division
+    - [x] Modulo

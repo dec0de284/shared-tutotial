@@ -113,3 +113,59 @@ print(string3)
 input(Colors.WARNING + "Press ENTER to continue..." + Colors.END)
 
 # endregion
+
+# region Section 3, #30
+# Section 3: Python Basics
+# 30. Augmented Assignment Operator
+
+print(Colors.HEADER +
+      "Section 3: Python Basics\n"
+      "30. Augmented Assignment Operator" +
+      Colors.END)
+
+first_number = input("First Number: ")
+second_number = input("Second Number: ")
+
+# Addition
+value = int(first_number)
+value += int(second_number)
+print("\n"
+      "Addition: " + first_number + " += " + second_number + " = " + str(value) + "\n")
+
+# Subtraction
+value = int(first_number)
+value -= int(second_number)
+print("\n"
+      "Subtraction: " + first_number + " -= " + second_number + " = " + str(value) + "\n")
+
+# Multiplication
+value = int(first_number)
+value *= int(second_number)
+print("\n"
+      "Multiplication: " + first_number + " *= " + second_number + " = " + str(value) + "\n")
+
+# Division
+value = int(first_number)
+value /= int(second_number)
+print("\n"
+      "Division: " + first_number + " /= " + second_number + " = " + str(value) + "\n")
+
+# Exponential
+value = int(first_number)
+value **= int(second_number)
+print("\n"
+      "Exponential: " + first_number + " **= " + second_number + " = " + str(value) + "\n")
+
+# Floor Division, type()
+value = int(first_number)
+value //= int(second_number)
+print("\n"
+      "Floor Division: " + first_number + " //= " + second_number + " = " + str(value) + "\n")
+
+# Modulo, type()
+value = int(first_number)
+value %= int(second_number)
+print("\n"
+      "Modulo: " + first_number + " %= " + second_number + " = " + str(value) + "\n")
+
+# endregion

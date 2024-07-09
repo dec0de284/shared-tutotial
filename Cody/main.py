@@ -9,14 +9,14 @@ class Colors:
     INFO = '\033[94m'
     GREEN = '\033[92m'
     WARNING = '\033[93m'
-    FAIL = '\033[91m'
+    RED = '\033[91m'
     END = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
 
 # endregion
-
+"""
 # region Section 2, #10
 # Section 2: Python Introduction
 # 10. Our First Python Program
@@ -239,5 +239,28 @@ input_birth_year = datetime.strptime(input("What's your year of birth>\nYear: ")
 age = int((datetime.now() - input_birth_year).total_seconds() // 31_556_952)
 print(f'''You're now {age} years old.''')
 input(f'''{Colors.WARNING}Press ENTER to continue...{Colors.END}''')
+
+# endregion
+"""
+# region Section 3, #42
+# Section 3: Python Basics
+# 42. Exercise: Password Checker
+
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+42. Exercise: Password Checker{Colors.END}''')
+
+username = "Cody"
+password = "123"
+input_username = input("What's your username?\nUsername: ")
+if input_username == username:
+    print(f"Welcome, {username}. Your password is {'*'*len(password)} and {len(password)} characters long.")
+    input_password = input("What's your password?\nPassword: ")
+    if input_password == password:
+        print(f'{Colors.GREEN}Success login!{Colors.END}')
+    else:
+        print(f'{Colors.RED}Wrong password!{Colors.END}')
+else:
+    print(f"{Colors.RED}No existing user!{Colors.END}")
 
 # endregion

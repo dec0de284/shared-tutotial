@@ -4,8 +4,7 @@
 
 > [!TIP]
 > Learn more about
->
-markdown [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+> markdown [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Section 2: Python Introduction
 
@@ -14,5 +13,17 @@ markdown [here](https://docs.github.com/en/get-started/writing-on-github/getting
     - [x] input()
     - [x] Variable
     - [x] String Concatenation
+
+### Section 3: Python Basics
+- [x] 21\. Numbers
+  - [x] Math Operations
+    - [x] Addition
+    - [x] Subtraction
+    - [x] Multiplication
+    - [x] Division
+    - [x] Exponential
+    - [x] Floor Division
+    - [x] Modulo 
+  - [x] type() 
 
 

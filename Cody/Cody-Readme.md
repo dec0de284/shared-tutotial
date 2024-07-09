@@ -25,5 +25,8 @@
     - [x] Floor Division
     - [x] Modulo 
   - [x] type() 
+- [x] 22\. Math Functions
+  - [x] round() 
+  - [x] abs() 
 
 

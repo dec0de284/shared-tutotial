@@ -12,4 +12,5 @@ def f_str():
     year = int(input('What\'s the year today?\n'))
     print(f'Hello {name} from the year {year}!\n')
 
-if user_input == 1: f_str()
+if user_input == 1: 
+    f_str()

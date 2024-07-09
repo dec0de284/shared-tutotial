@@ -46,3 +46,4 @@
 - [x] 36\. String Indexes
     - [x] String Splice
     - [x] Reverse String
+- [x] **40\. Exercise: Type Conversion**

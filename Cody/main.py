@@ -1,4 +1,9 @@
+from datetime import datetime
+
 # region Console Colors
+import time
+
+
 class Colors:
     HEADER = '\033[95m'
     INFO = '\033[94m'
@@ -217,6 +222,22 @@ print(f'''Original String: {string}
 Limit to 12 characters: {string[:12]} - Length: {len(string[:12])}
 Reverse string: {string[::-1]}''')
 
+input(f'''{Colors.WARNING}Press ENTER to continue...{Colors.END}''')
+
+# endregion
+
+# region Section 3, #40
+# Section 3: Python Basics
+# 40. Exercise: Type Conversion
+
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+40. Exercise: Type Conversion{Colors.END}''')
+
+# https://docs.python.org/3/library/datetime.html
+input_birth_year = datetime.strptime(input("What's your year of birth>\nYear: "), "%Y")
+age = int((datetime.now() - input_birth_year).total_seconds() // 31_556_952)
+print(f'''You're now {age} years old.''')
 input(f'''{Colors.WARNING}Press ENTER to continue...{Colors.END}''')
 
 # endregion

@@ -14,7 +14,7 @@ class Colors:
 
 
 # endregion
-
+"""
 # region Section 2, #10
 # Section 2: Python Introduction
 # 10. Our First Python Program
@@ -276,5 +276,32 @@ even_numbers = numbers[0]
 odd_numbers = numbers[1]
 print(f"Even Numbers: {even_numbers}")
 print(f"Odd Nubmers: {odd_numbers}")
+
+# endregion
+"""
+# region Section 3, #45
+# Section 3: Python Basics
+# 46. List Methods
+
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+46. List Methods{Colors.END}''')
+
+my_list = []
+
+my_list.append('meow')  # ['meow']
+print(my_list)
+my_list.insert(0, 'first')  # ['first','meow']
+print(my_list)
+my_list.extend(['count', 1])  # ['first','meow','count',1]
+print(my_list)
+my_list.pop()  # ['first','meow','count']
+print(my_list)
+my_list.pop(0)  # ['meow','count']
+print(my_list)
+my_list.remove('count')  # ['meow']
+print(my_list)
+my_list.clear()  # []
+print(my_list)
 
 # endregion

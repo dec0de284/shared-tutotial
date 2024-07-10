@@ -53,6 +53,13 @@ markdown [here](https://docs.github.com/en/get-started/writing-on-github/getting
 - [x] **42\. Exercise: Password Checker**
 - [x] 45\. Matrix
     - [x] Multi-Dimension Array
+- [x] 46\. List Methods
+    - [x] list.append()
+    - [x] list.insert()
+    - [x] list.extend()
+    - [x] list.pop()
+    - [x] list.remove()
+    - [x] list.clear()
 
 > [!NOTE]
 > Continue lesson section ?, #?.

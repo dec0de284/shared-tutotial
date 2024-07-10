@@ -14,7 +14,7 @@ class Colors:
 
 
 # endregion
-"""
+
 # region Section 2, #10
 # Section 2: Python Introduction
 # 10. Our First Python Program
@@ -305,7 +305,6 @@ my_list.clear()  # []
 print(my_list)
 
 # endregion
-"""
 
 # region Section 3, #47
 # Section 3: Python Basics
@@ -322,4 +321,19 @@ if 'count' in my_list:
 
 print(str(my_list).count('o'))  # counted how many letter 'o' in my_list
 
+# endregion
+
+# region Section 3, #48
+# Section 3: Python Basics
+# 48. List Methods 3
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+48. List Methods 3{Colors.END}''')
+
+my_list = ['first', 'meow', 'count']
+
+my_list.sort()
+print(my_list)
+my_list.reverse()
+print(my_list)
 # endregion

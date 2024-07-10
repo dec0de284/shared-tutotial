@@ -64,6 +64,10 @@ markdown [here](https://docs.github.com/en/get-started/writing-on-github/getting
     - [x] list.index()
     - [x] `in` keyword
     - [x] list.count()
+- [x] 48\. List Methods 3
+    - [x] list.sort()
+    - [x] list.reverse()
 
 > [!NOTE]
-> Continue lesson section ?, #?.
+> Section 3, done.
+> TODO: Create Exercises from #49 to #60

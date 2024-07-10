@@ -24,8 +24,7 @@ def indx():
     reco = ((user_input1 + length)[::-1])
     print(f'Recommended password: {reco}{length}')
     
-
-
+    
 if user_input == 1: 
     f_str()
 if user_input == 2:

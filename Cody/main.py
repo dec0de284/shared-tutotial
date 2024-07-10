@@ -278,8 +278,8 @@ print(f"Even Numbers: {even_numbers}")
 print(f"Odd Nubmers: {odd_numbers}")
 
 # endregion
-"""
-# region Section 3, #45
+
+# region Section 3, #46
 # Section 3: Python Basics
 # 46. List Methods
 
@@ -303,5 +303,23 @@ my_list.remove('count')  # ['meow']
 print(my_list)
 my_list.clear()  # []
 print(my_list)
+
+# endregion
+"""
+
+# region Section 3, #47
+# Section 3: Python Basics
+# 47. List Methods 2
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+47. List Methods 2{Colors.END}''')
+
+my_list = ['first', 'meow', 'count', 1]
+
+print(my_list.index('meow'))
+if 'count' in my_list:
+    print('meow count: ' + str(my_list[3]))
+
+print(str(my_list).count('o'))  # counted how many letter 'o' in my_list
 
 # endregion

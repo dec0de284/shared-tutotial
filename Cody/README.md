@@ -60,6 +60,10 @@ markdown [here](https://docs.github.com/en/get-started/writing-on-github/getting
     - [x] list.pop()
     - [x] list.remove()
     - [x] list.clear()
+- [x] 47\. List Methods 2
+    - [x] list.index()
+    - [x] `in` keyword
+    - [x] list.count()
 
 > [!NOTE]
 > Continue lesson section ?, #?.

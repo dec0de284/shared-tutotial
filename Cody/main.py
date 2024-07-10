@@ -1,9 +1,7 @@
 from datetime import datetime
 
+
 # region Console Colors
-import time
-
-
 class Colors:
     HEADER = '\033[95m'
     INFO = '\033[94m'
@@ -254,7 +252,7 @@ username = "Cody"
 password = "123"
 input_username = input("What's your username?\nUsername: ")
 if input_username == username:
-    print(f"Welcome, {username}. Your password is {'*'*len(password)} and {len(password)} characters long.")
+    print(f"Welcome, {username}. Your password is {'*' * len(password)} and {len(password)} characters long.")
     input_password = input("What's your password?\nPassword: ")
     if input_password == password:
         print(f'{Colors.GREEN}Success login!{Colors.END}')
@@ -263,4 +261,79 @@ if input_username == username:
 else:
     print(f"{Colors.RED}No existing user!{Colors.END}")
 
+# endregion
+
+# region Section 3, #45
+# Section 3: Python Basics
+# 45. Matrix
+
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+45. Matrix{Colors.END}''')
+
+numbers = [[2, 8, 4], [1, 7, 5]]
+even_numbers = numbers[0]
+odd_numbers = numbers[1]
+print(f"Even Numbers: {even_numbers}")
+print(f"Odd Nubmers: {odd_numbers}")
+
+# endregion
+
+# region Section 3, #46
+# Section 3: Python Basics
+# 46. List Methods
+
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+46. List Methods{Colors.END}''')
+
+my_list = []
+
+my_list.append('meow')  # ['meow']
+print(my_list)
+my_list.insert(0, 'first')  # ['first','meow']
+print(my_list)
+my_list.extend(['count', 1])  # ['first','meow','count',1]
+print(my_list)
+my_list.pop()  # ['first','meow','count']
+print(my_list)
+my_list.pop(0)  # ['meow','count']
+print(my_list)
+my_list.remove('count')  # ['meow']
+print(my_list)
+my_list.clear()  # []
+print(my_list)
+
+# endregion
+
+# region Section 3, #47
+# Section 3: Python Basics
+# 47. List Methods 2
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+47. List Methods 2{Colors.END}''')
+
+my_list = ['first', 'meow', 'count', 1]
+
+print(my_list.index('meow'))
+if 'count' in my_list:
+    print('meow count: ' + str(my_list[3]))
+
+print(str(my_list).count('o'))  # counted how many letter 'o' in my_list
+
+# endregion
+
+# region Section 3, #48
+# Section 3: Python Basics
+# 48. List Methods 3
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+48. List Methods 3{Colors.END}''')
+
+my_list = ['first', 'meow', 'count']
+
+my_list.sort()
+print(my_list)
+my_list.reverse()
+print(my_list)
 # endregion

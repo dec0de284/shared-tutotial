@@ -262,3 +262,19 @@ else:
     print(f"{Colors.RED}No existing user!{Colors.END}")
 
 # endregion
+
+# region Section 3, #45
+# Section 3: Python Basics
+# 45. Matrix
+
+print(f'''
+{Colors.HEADER}Section 3: Python Basics
+45. Matrix{Colors.END}''')
+
+numbers = [[2, 8, 4], [1, 7, 5]]
+even_numbers = numbers[0]
+odd_numbers = numbers[1]
+print(f"Even Numbers: {even_numbers}")
+print(f"Odd Nubmers: {odd_numbers}")
+
+# endregion

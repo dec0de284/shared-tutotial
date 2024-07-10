@@ -1,9 +1,7 @@
 from datetime import datetime
 
+
 # region Console Colors
-import time
-
-
 class Colors:
     HEADER = '\033[95m'
     INFO = '\033[94m'
@@ -254,7 +252,7 @@ username = "Cody"
 password = "123"
 input_username = input("What's your username?\nUsername: ")
 if input_username == username:
-    print(f"Welcome, {username}. Your password is {'*'*len(password)} and {len(password)} characters long.")
+    print(f"Welcome, {username}. Your password is {'*' * len(password)} and {len(password)} characters long.")
     input_password = input("What's your password?\nPassword: ")
     if input_password == password:
         print(f'{Colors.GREEN}Success login!{Colors.END}')

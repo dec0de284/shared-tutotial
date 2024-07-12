@@ -1,3 +1,4 @@
+![wish_once_upon_a_starlight](https://github.com/user-attachments/assets/39014801-2aa9-49b4-97fe-ba9a938392aa)
 ### Topics Covered
 
 - [x] I/O Operations

@@ -74,16 +74,17 @@ def strmeds1():
         print(new_lyrics)
         return
 
+
 user_input = int(input(f'''Here\'s a list of my exercises. {list} 
 \n Which exercise do you want to see? (Select a number) \n'''))
 
 if user_input == 1: 
     f_str()
-if user_input == 2:
+elif user_input == 2:
     indx()
-if user_input == 3:
+elif user_input == 3:
     strmeds()
-if user_input == 4:
+elif user_input == 4:
     strmeds1()
 else:
     print('That is not in the list')

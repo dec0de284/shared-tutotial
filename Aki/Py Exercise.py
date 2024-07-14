@@ -34,7 +34,7 @@ def strmeds():
         new_name  = input('What is your name? \n')
         new_name1 = name.replace('Aki', new_name)
         print(f'\nWelcome, {new_name1}! A great adventure is just up ahead!\n')
-    if user_input1 == 'N' or user_input1 == 'n':
+    elif user_input1 == 'N' or user_input1 == 'n':
         print(f'\nOkay, your username remains as {name}. Best wishes on your travels!\n ')
         return
 

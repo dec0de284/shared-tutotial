@@ -160,5 +160,5 @@ cython_debug/
 .idea/
 
 # Cody's git ignores
-/Cody/Games/lib/binary_writer.py
+/Cody/Games/starlight/lib/binary_writer.py
 /Cody/Games/starlight/story.json

@@ -1,4 +1,4 @@
-from Cody.Games.lib.binary_reader import Reader
+from lib.binary_reader import Reader
 from pathlib import Path
 
 path = Path("assets.bin").resolve()

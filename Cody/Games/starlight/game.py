@@ -1,7 +1,7 @@
 from lib.binary_reader import Reader
 from pathlib import Path
 
-path = Path("assets.bin").resolve()
+path = Path(__file__).resolve().parent / "assets.bin"
 asset_dict = Reader(path).read()
 
 for dialogue in asset_dict["story"]["scene"]["prologue"]:
@@ -25,3 +25,6 @@ while input_choice != "4":
 
     else:
         print("\033[91mError: Invalid input!\033[0m")
+
+for dialogue in asset_dict["story"]["scene"]["going_home"]:
+    input(dialogue)
